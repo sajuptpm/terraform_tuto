@@ -10,7 +10,7 @@ default = ""
 }
 
 variable "github_owner" {
-default = "sajuptpm"
+default = ""
 }
 
 resource "github_repository" "repo1" {
