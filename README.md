@@ -5,6 +5,9 @@ Install Terraform
 ########################
 
 ```
+
+https://www.katacoda.com/courses/docker/deploying-first-container
+
 git clone https://github.com/sajuptpm/terraform_tuto
 cd terraform_tuto
 
