@@ -12,7 +12,11 @@ terraform version
 rm -rf ./terraform_0.12.26_linux_amd64.zip
 ```
 
-
+```
+cd project_dir
+terraform init
+terraform apply
+```
 
 ###################################
 
