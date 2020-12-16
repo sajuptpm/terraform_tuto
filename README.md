@@ -16,8 +16,9 @@ cd terraform_tuto
 terraform init
 
 
-TT="your token"
-terraform apply -var github_token=$TT
+OWNER = "your username"
+TOKEN="your token"
+terraform apply -var github_owner=$TOKEN -var github_token=$TOKEN
 
 
 
