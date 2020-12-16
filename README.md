@@ -11,7 +11,13 @@ cd terraform_tuto
 ./install.sh
 
 terraform init
-terraform apply
+
+
+TT="your token"
+terraform apply -var github_token=$TT
+
+
+
 ```
 
 ###################################
